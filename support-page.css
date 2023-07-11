@@ -459,7 +459,7 @@ footer {
 		padding: 60px 0 86px;
 	}
 
-	.topics-article:nth-last-child(-n+2), .wix-desc, .arrow{
+	.topics-article:nth-last-child(-n+2), .arrow, .column-desc{
 		display: none;
 	}
 
@@ -516,10 +516,10 @@ footer {
 		font-size: 16px;
 		font-style: normal;
 	}
-	
-	.terms-policy-copyright {
+
+	.wix-desc {
 		display: flex;
-		flex-direction: row;
+		gap: 54px;
 	}
 
 
@@ -626,7 +626,7 @@ footer {
 		margin: 0;
 	}
 
-	.topics-article:nth-last-child(-n+2), .arrow, .terms-policy, .copyright, .column-desc, .wix-desc{
+	.topics-article:nth-last-child(-n+2), .arrow, .terms-policy, .column-desc{
 		display: none;
 	}
 
@@ -673,5 +673,9 @@ footer {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		gap: 54px;
 		width: 968px;
+	}
+
+	.wix-desc {
+		display: flex;
 	}
 }
